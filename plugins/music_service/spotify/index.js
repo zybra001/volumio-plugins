@@ -448,7 +448,7 @@ ControllerSpop.prototype.spotifyClientCredentialsGrant=function()
 
 	// Plug in your Spotify Refresh token below - not the access token - the refresh token!
 
-	var refreshToken = 'xxxxxxxxxxx';
+	var refreshToken = 'AQBIHtj6tLwqtzAwPs_zzF5ylbEq9dUvFjTXBs3So8tjiBcolrY2sh1pmnGOJcz9_2G6jlOLcTW9W-LVr1B2Jgtz8V42Ic61tcsjSLjU8QTUsfeYJKuisC1VYwEnl654QGJlRQ';
 
 	self.spotifyApi.setRefreshToken(refreshToken);
     self.spotifyApi.refreshAccessToken()
